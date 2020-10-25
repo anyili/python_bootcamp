@@ -27,7 +27,7 @@ print(person['age'])
 # list
 teams = ['Team A', 'Team B', 'Team R']
 print(teams[2])
-print(teams[3])
+print(teams[1])
 
 # control
 
@@ -45,7 +45,7 @@ for team in teams:
 teams_lower = [team.lower() for team in teams]
 for team in teams_lower:
     print(team)
-     print(team + '?')
+    print(team + '?')
 
 
 # method
